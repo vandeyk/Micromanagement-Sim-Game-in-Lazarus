@@ -4,11 +4,11 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="5">
       <Unit0>
         <Filename Value="teamgame.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,20 +19,161 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="325"/>
-        <CursorPos X="59" Y="337"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="160"/>
+        <CursorPos X="38" Y="178"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
+        <Filename Value="menuf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="53"/>
+        <CursorPos X="56" Y="72"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
         <Filename Value="C:\lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3951"/>
         <CursorPos Y="3962"/>
-        <UsageCount Value="10"/>
-      </Unit2>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2183"/>
+        <CursorPos Y="2196"/>
+        <UsageCount Value="9"/>
+      </Unit4>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="316" Column="69" TopLine="305"/>
+      </Position1>
+      <Position2>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="9" Column="36"/>
+      </Position2>
+      <Position3>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="316" Column="69" TopLine="303"/>
+      </Position3>
+      <Position4>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="47" Column="13" TopLine="23"/>
+      </Position4>
+      <Position5>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="105" Column="77" TopLine="92"/>
+      </Position5>
+      <Position6>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="47" Column="50" TopLine="23"/>
+      </Position6>
+      <Position7>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="49" Column="50" TopLine="25"/>
+      </Position7>
+      <Position8>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="50" Column="23" TopLine="28"/>
+      </Position8>
+      <Position9>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="60" Column="25" TopLine="42"/>
+      </Position9>
+      <Position10>
+        <Filename Value="menuf.pas"/>
+        <Caret Line="64" Column="37" TopLine="43"/>
+      </Position10>
+      <Position11>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="231" Column="46" TopLine="223"/>
+      </Position11>
+      <Position12>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="232" Column="46" TopLine="224"/>
+      </Position12>
+      <Position13>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="300" Column="3" TopLine="297"/>
+      </Position13>
+      <Position14>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="402" Column="16" TopLine="390"/>
+      </Position14>
+      <Position15>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="81" TopLine="73"/>
+      </Position15>
+      <Position16>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="89" Column="22" TopLine="77"/>
+      </Position16>
+      <Position17>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="88" Column="12" TopLine="71"/>
+      </Position17>
+      <Position18>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="86" Column="14" TopLine="75"/>
+      </Position18>
+      <Position19>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="156" Column="61" TopLine="151"/>
+      </Position19>
+      <Position20>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="175" Column="60" TopLine="152"/>
+      </Position20>
+      <Position21>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="279" Column="16" TopLine="269"/>
+      </Position21>
+      <Position22>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="481" Column="3" TopLine="466"/>
+      </Position22>
+      <Position23>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="480" Column="3" TopLine="465"/>
+      </Position23>
+      <Position24>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="89" Column="52" TopLine="79"/>
+      </Position24>
+      <Position25>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="487" Column="51" TopLine="466"/>
+      </Position25>
+      <Position26>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="488" Column="51" TopLine="467"/>
+      </Position26>
+      <Position27>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="489" Column="51" TopLine="468"/>
+      </Position27>
+      <Position28>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="490" Column="51" TopLine="469"/>
+      </Position28>
+      <Position29>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="488" Column="27" TopLine="472"/>
+      </Position29>
+      <Position30>
+        <Filename Value="teamg.pas"/>
+        <Caret Line="505" Column="32" TopLine="489"/>
+      </Position30>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>
