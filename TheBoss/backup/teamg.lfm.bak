@@ -541,15 +541,15 @@ object MainForm: TMainForm
     }
   end
   object PanEx: TPanel
-    Left = 8
-    Height = 72
-    Top = 40
+    Left = 0
+    Height = 80
+    Top = 0
     Width = 170
     BevelOuter = bvNone
     BevelWidth = 2
     BorderWidth = 2
     BorderStyle = bsSingle
-    ClientHeight = 68
+    ClientHeight = 76
     ClientWidth = 166
     TabOrder = 2
     object Lbl_Ex: TLabel

@@ -22,6 +22,7 @@ type
     procedure Btn_StartClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure SizeBarChange(Sender: TObject);
   private
     { private declarations }
   public
@@ -59,6 +60,13 @@ begin
   //Применение шрифта ко всем лейблам
   Lbl_Size.Font := Lbl_Label.Font;
   Lbl_Diff.Font := Lbl_Label.Font;
+  //Расположение бегунков, кнопок и надписей - для совместимости
+  Lbl_Size.Left := 45;
+  Lbl_Diff.Left := 45;
+  SizeBar.Left := Lbl_Size.Left + Lbl_Size.Width + 10;
+  DifficultyBar.Left := Lbl_Diff.Left + Lbl_Size.Width + 10;
+  MenuForm.Width := Lbl_Diff.Left + Lbl_Size.Width + 10 + SizeBar.Width + 45;
+  Btn_Start.Left := trunc(MenuForm.Width / 2) - 100;
 end;
 
 procedure TMenuForm.FormShow(Sender: TObject);
@@ -68,6 +76,11 @@ begin
     MenuForm.Left := MainForm.Left;
     MenuForm.Top := MainForm.Top;
   end;
+end;
+
+procedure TMenuForm.SizeBarChange(Sender: TObject);
+begin
+
 end;
 
 end.

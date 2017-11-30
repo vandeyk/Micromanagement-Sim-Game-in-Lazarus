@@ -16,9 +16,9 @@ object MenuForm: TMenuForm
     Height = 25
     Top = 32
     Width = 152
-    Max = 60
-    Min = 20
-    Position = 40
+    Max = 6
+    Min = 2
+    Position = 6
     TabOrder = 0
   end
   object Btn_Start: TImage
@@ -254,7 +254,8 @@ object MenuForm: TMenuForm
     Height = 25
     Top = 64
     Width = 152
-    Min = 5
+    Min = 4
+    OnChange = SizeBarChange
     Position = 5
     TabOrder = 1
   end

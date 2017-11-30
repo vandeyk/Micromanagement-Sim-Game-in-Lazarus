@@ -30,13 +30,13 @@ type
     procedure BtnNOClick(Sender: TObject);
     procedure BtnToMenuClick(Sender: TObject);
     procedure BtnYESClick(Sender: TObject);
-    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction); //Не используется
     procedure FormCreate(Sender: TObject);
-    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState); //Не используется
     procedure EventTimerTimer(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure HeroClick(Sender: TObject);
-    procedure MidTimerTimer(Sender: TObject);
+    procedure MidTimerTimer(Sender: TObject); //Не используется
   private
     { private declarations }
   public
@@ -45,7 +45,7 @@ type
 
 var
   MainForm: TMainForm;
-  Map: array [1..20] of TImage;
+  Map: array [1..10] of TImage;
   Bonus: TImage;
   Dragger, Floor, ProgressBar: TImage;
 
@@ -172,7 +172,7 @@ begin
   Sea.Top := MainForm.Height;
   Sea.Height := 0;
   //Инициализируем переменные
-  difficulty := MenuForm.DifficultyBar.Position;
+  difficulty := MenuForm.DifficultyBar.Position * 10;
   gameover := false;
   progress := 0;
   goal := 150;
@@ -230,6 +230,7 @@ begin
   //Гарантируем то, что хотя бы один работник будет создан
   if workers = 0 then begin
     i := random(MenuForm.SizeBar.Position) + 1;
+    Map[i].Visible := true;
     k := random(5) + 1;
     Map[i].Picture.LoadFromFile('Worker' + IntToStr(k) + '.png');
     Map_TObj[i].init('Worker', k, random(11) - 5);
